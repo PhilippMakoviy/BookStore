@@ -2,7 +2,7 @@ from rest_framework import serializers
 from .models import Book,Subscription
 from django.contrib.auth.models import User
 
-#Нижи приведены все используемые для вывода информации сериалайзеры с необходимыми полями
+#Ниже приведены все используемые для вывода информации сериалайзеры с необходимыми полями
 
 class SingleBookSerializer(serializers.ModelSerializer):
     class Meta:
